@@ -2,13 +2,13 @@ import React from 'react';
 
 import {
     Modal,
+    ModalOverlay,
+    ModalContent,
+    ModalHeader,
+    ModalFooter,
     ModalBody,
     ModalCloseButton,
-    ModalContent,
-    ModalFooter,
-    ModalHeader,
-    ModalOverlay
-} from "@chakra-ui/modal";
+  } from '@chakra-ui/react'
 
 import {Topic} from "@/types/graph/Topic";
 import useTopic from "@/hooks/queries/topics/useTopic";
